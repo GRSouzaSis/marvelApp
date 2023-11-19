@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { TextTitle } from './styles';
+import Header from '../../components/Header';
+import Input from '../../components/Input';
 
 
 const Home: React.FC = () => {
 
   return (
     <>
-      <TextTitle>Home</TextTitle>
+      <Header titulo='Personagens'/>
+      <Input/>
       <TextTitle>teste</TextTitle>
     </>
   )

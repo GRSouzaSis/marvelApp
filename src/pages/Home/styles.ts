@@ -1,9 +1,8 @@
-import React from 'react'
 import styled from 'styled-components/native'
 
 
 export const TextTitle = styled.Text`
-  font-size: 25px;
+  font-size: 20px;
   color: blue;
   margin-top: 20px;
 `
